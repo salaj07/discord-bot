@@ -24,14 +24,13 @@ async function generateContent(prompt) {
       contents: prompt,
 
       config: {
-        systemInstruction:
-          "generate the response in 100 words and make it concise and to the point",
-        /*  systemInstruction:{
+      
+         systemInstruction:{
                 role:"system",
                 parts:[
                     {text:"generate the response in 100 words and make it concise and to the point"}
                 ]
-            } */
+            }
       },
     });
     // console.log(response.text);
